@@ -4,10 +4,10 @@ metadata:
   name: myapp-service-backup
 spec:
   selector:
-    app: green
+    app: blue
   ports:
     - protocol: TCP
-      port: 80
+      port: 81
       targetPort: 80
   type: LoadBalancer
   externalIPs:
